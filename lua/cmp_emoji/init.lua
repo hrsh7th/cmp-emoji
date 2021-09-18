@@ -11,7 +11,7 @@ source.get_trigger_characters = function()
 end
 
 source.get_keyword_pattern = function()
-  return [[\%(\s\|^\)\zs:\w*:\?]]
+  return [=[\%(\s\|^\)\zs:[[:alnum:]_\-\+]*:\?]=]
 end
 
 source.complete = function(self, request, callback)
