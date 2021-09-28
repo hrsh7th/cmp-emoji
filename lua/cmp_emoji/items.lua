@@ -1,4 +1,4 @@
-return {
+return function() return {
 { word = ':hash:'; label = '#️⃣ :hash:'; insertText = '#️⃣'; filterText = ':hash:' };
 { word = ':keycap_star:'; label = '*️⃣ :keycap_star:'; insertText = '*️⃣'; filterText = ':keycap_star:' };
 { word = ':zero:'; label = '0️⃣ :zero:'; insertText = '0️⃣'; filterText = ':zero:' };
@@ -1336,4 +1336,4 @@ return {
 { word = ':part_alternation_mark:'; label = '〽️ :part_alternation_mark:'; insertText = '〽️'; filterText = ':part_alternation_mark:' };
 { word = ':congratulations:'; label = '㊗️ :congratulations:'; insertText = '㊗️'; filterText = ':congratulations:' };
 { word = ':secret:'; label = '㊙️ :secret:'; insertText = '㊙️'; filterText = ':secret:' };
-}
+} end

@@ -41,7 +41,7 @@ M.update = function()
       items = items .. M.to_item(char, emoji.short_name)
     end
   end
-  M._write('./items.lua', ('return {\n%s}'):format(items))
+  M._write('./items.lua', ('return function() return {\n%s} end'):format(items))
 end
 
 return M

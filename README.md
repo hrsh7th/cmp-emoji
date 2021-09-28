@@ -12,3 +12,11 @@ require'cmp'.setup {
 }
 ```
 
+# Option
+
+#### insert (type: boolean)
+
+Speficy emoji should be insert or not.
+
+Default: `false`
+
