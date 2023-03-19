@@ -17,7 +17,9 @@ end
 
 source.complete = function(self, params, callback)
   -- Avoid unexpected completion.
-  if not vim.regex(self.get_keyword_pattern() .. '$'):match_str(params.context.cursor_before_line) then
+  if not (vim.regex(self.get_keyword_pattern() .. '$'):match_str(params.context.cursor_before_line)
+       or vim.treesitter.get_captures_at_cursor(0)[1] == 'string')
+  then
     return callback()
   end
 
