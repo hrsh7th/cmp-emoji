@@ -31,7 +31,11 @@ source.complete = function(self, params, callback)
     callback(self.insert_items)
   else
     if not self.commit_items then
-      self.commit_items = require('cmp_emoji.items')()
+      self.commit_items =vim.tbl_map(function(item)
+        -- appending a space to prevent cmp from triggering for the closing ":"
+        item.insertText = item.word.." "
+        return item
+      end, require('cmp_emoji.items')())
     end
     callback(self.commit_items)
   end
