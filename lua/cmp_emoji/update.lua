@@ -30,6 +30,16 @@ M.to_item = function(emoji, short_name)
   )
 end
 
+M.to_items = function(emoji, short_names)
+  local variants = ''
+
+  for _, short_name in ipairs(short_names) do
+    variants = variants .. M.to_item(emoji, short_name)
+  end
+
+  return variants
+end
+
 M.update = function()
   local items = ''
   for _, emoji in ipairs(M._read('./emoji.json')) do
@@ -38,7 +48,7 @@ M.update = function()
     local valid = true
     valid = valid and vim.fn.strdisplaywidth(char) <= 2 -- Ignore invalid ligatures
     if valid then
-      items = items .. M.to_item(char, emoji.short_name)
+      items = items .. M.to_items(char, emoji.short_names)
     end
   end
   M._write('./items.lua', ('return function() return {\n%s} end'):format(items))

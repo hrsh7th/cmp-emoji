@@ -66,6 +66,7 @@ return function() return {
 { word = ':waxing_crescent_moon:'; label = '🌒 :waxing_crescent_moon:'; insertText = '🌒'; filterText = ':waxing_crescent_moon:' };
 { word = ':first_quarter_moon:'; label = '🌓 :first_quarter_moon:'; insertText = '🌓'; filterText = ':first_quarter_moon:' };
 { word = ':moon:'; label = '🌔 :moon:'; insertText = '🌔'; filterText = ':moon:' };
+{ word = ':waxing_gibbous_moon:'; label = '🌔 :waxing_gibbous_moon:'; insertText = '🌔'; filterText = ':waxing_gibbous_moon:' };
 { word = ':full_moon:'; label = '🌕 :full_moon:'; insertText = '🌕'; filterText = ':full_moon:' };
 { word = ':waning_gibbous_moon:'; label = '🌖 :waning_gibbous_moon:'; insertText = '🌖'; filterText = ':waning_gibbous_moon:' };
 { word = ':last_quarter_moon:'; label = '🌗 :last_quarter_moon:'; insertText = '🌗'; filterText = ':last_quarter_moon:' };
@@ -80,12 +81,17 @@ return function() return {
 { word = ':stars:'; label = '🌠 :stars:'; insertText = '🌠'; filterText = ':stars:' };
 { word = ':thermometer:'; label = '🌡️ :thermometer:'; insertText = '🌡️'; filterText = ':thermometer:' };
 { word = ':mostly_sunny:'; label = '🌤️ :mostly_sunny:'; insertText = '🌤️'; filterText = ':mostly_sunny:' };
+{ word = ':sun_small_cloud:'; label = '🌤️ :sun_small_cloud:'; insertText = '🌤️'; filterText = ':sun_small_cloud:' };
 { word = ':barely_sunny:'; label = '🌥️ :barely_sunny:'; insertText = '🌥️'; filterText = ':barely_sunny:' };
+{ word = ':sun_behind_cloud:'; label = '🌥️ :sun_behind_cloud:'; insertText = '🌥️'; filterText = ':sun_behind_cloud:' };
 { word = ':partly_sunny_rain:'; label = '🌦️ :partly_sunny_rain:'; insertText = '🌦️'; filterText = ':partly_sunny_rain:' };
+{ word = ':sun_behind_rain_cloud:'; label = '🌦️ :sun_behind_rain_cloud:'; insertText = '🌦️'; filterText = ':sun_behind_rain_cloud:' };
 { word = ':rain_cloud:'; label = '🌧️ :rain_cloud:'; insertText = '🌧️'; filterText = ':rain_cloud:' };
 { word = ':snow_cloud:'; label = '🌨️ :snow_cloud:'; insertText = '🌨️'; filterText = ':snow_cloud:' };
 { word = ':lightning:'; label = '🌩️ :lightning:'; insertText = '🌩️'; filterText = ':lightning:' };
+{ word = ':lightning_cloud:'; label = '🌩️ :lightning_cloud:'; insertText = '🌩️'; filterText = ':lightning_cloud:' };
 { word = ':tornado:'; label = '🌪️ :tornado:'; insertText = '🌪️'; filterText = ':tornado:' };
+{ word = ':tornado_cloud:'; label = '🌪️ :tornado_cloud:'; insertText = '🌪️'; filterText = ':tornado_cloud:' };
 { word = ':fog:'; label = '🌫️ :fog:'; insertText = '🌫️'; filterText = ':fog:' };
 { word = ':wind_blowing_face:'; label = '🌬️ :wind_blowing_face:'; insertText = '🌬️'; filterText = ':wind_blowing_face:' };
 { word = ':hotdog:'; label = '🌭 :hotdog:'; insertText = '🌭'; filterText = ':hotdog:' };
@@ -159,6 +165,7 @@ return function() return {
 { word = ':bento:'; label = '🍱 :bento:'; insertText = '🍱'; filterText = ':bento:' };
 { word = ':stew:'; label = '🍲 :stew:'; insertText = '🍲'; filterText = ':stew:' };
 { word = ':fried_egg:'; label = '🍳 :fried_egg:'; insertText = '🍳'; filterText = ':fried_egg:' };
+{ word = ':cooking:'; label = '🍳 :cooking:'; insertText = '🍳'; filterText = ':cooking:' };
 { word = ':fork_and_knife:'; label = '🍴 :fork_and_knife:'; insertText = '🍴'; filterText = ':fork_and_knife:' };
 { word = ':tea:'; label = '🍵 :tea:'; insertText = '🍵'; filterText = ':tea:' };
 { word = ':sake:'; label = '🍶 :sake:'; insertText = '🍶'; filterText = ':sake:' };
@@ -234,6 +241,7 @@ return function() return {
 { word = ':checkered_flag:'; label = '🏁 :checkered_flag:'; insertText = '🏁'; filterText = ':checkered_flag:' };
 { word = ':snowboarder:'; label = '🏂 :snowboarder:'; insertText = '🏂'; filterText = ':snowboarder:' };
 { word = ':runner:'; label = '🏃 :runner:'; insertText = '🏃'; filterText = ':runner:' };
+{ word = ':running:'; label = '🏃 :running:'; insertText = '🏃'; filterText = ':running:' };
 { word = ':surfer:'; label = '🏄 :surfer:'; insertText = '🏄'; filterText = ':surfer:' };
 { word = ':sports_medal:'; label = '🏅 :sports_medal:'; insertText = '🏅'; filterText = ':sports_medal:' };
 { word = ':trophy:'; label = '🏆 :trophy:'; insertText = '🏆'; filterText = ':trophy:' };
@@ -277,6 +285,7 @@ return function() return {
 { word = ':department_store:'; label = '🏬 :department_store:'; insertText = '🏬'; filterText = ':department_store:' };
 { word = ':factory:'; label = '🏭 :factory:'; insertText = '🏭'; filterText = ':factory:' };
 { word = ':izakaya_lantern:'; label = '🏮 :izakaya_lantern:'; insertText = '🏮'; filterText = ':izakaya_lantern:' };
+{ word = ':lantern:'; label = '🏮 :lantern:'; insertText = '🏮'; filterText = ':lantern:' };
 { word = ':japanese_castle:'; label = '🏯 :japanese_castle:'; insertText = '🏯'; filterText = ':japanese_castle:' };
 { word = ':european_castle:'; label = '🏰 :european_castle:'; insertText = '🏰'; filterText = ':european_castle:' };
 { word = ':waving_white_flag:'; label = '🏳️ :waving_white_flag:'; insertText = '🏳️'; filterText = ':waving_white_flag:' };
@@ -321,7 +330,9 @@ return function() return {
 { word = ':bug:'; label = '🐛 :bug:'; insertText = '🐛'; filterText = ':bug:' };
 { word = ':ant:'; label = '🐜 :ant:'; insertText = '🐜'; filterText = ':ant:' };
 { word = ':bee:'; label = '🐝 :bee:'; insertText = '🐝'; filterText = ':bee:' };
+{ word = ':honeybee:'; label = '🐝 :honeybee:'; insertText = '🐝'; filterText = ':honeybee:' };
 { word = ':ladybug:'; label = '🐞 :ladybug:'; insertText = '🐞'; filterText = ':ladybug:' };
+{ word = ':lady_beetle:'; label = '🐞 :lady_beetle:'; insertText = '🐞'; filterText = ':lady_beetle:' };
 { word = ':fish:'; label = '🐟 :fish:'; insertText = '🐟'; filterText = ':fish:' };
 { word = ':tropical_fish:'; label = '🐠 :tropical_fish:'; insertText = '🐠'; filterText = ':tropical_fish:' };
 { word = ':blowfish:'; label = '🐡 :blowfish:'; insertText = '🐡'; filterText = ':blowfish:' };
@@ -336,6 +347,7 @@ return function() return {
 { word = ':dromedary_camel:'; label = '🐪 :dromedary_camel:'; insertText = '🐪'; filterText = ':dromedary_camel:' };
 { word = ':camel:'; label = '🐫 :camel:'; insertText = '🐫'; filterText = ':camel:' };
 { word = ':dolphin:'; label = '🐬 :dolphin:'; insertText = '🐬'; filterText = ':dolphin:' };
+{ word = ':flipper:'; label = '🐬 :flipper:'; insertText = '🐬'; filterText = ':flipper:' };
 { word = ':mouse:'; label = '🐭 :mouse:'; insertText = '🐭'; filterText = ':mouse:' };
 { word = ':cow:'; label = '🐮 :cow:'; insertText = '🐮'; filterText = ':cow:' };
 { word = ':tiger:'; label = '🐯 :tiger:'; insertText = '🐯'; filterText = ':tiger:' };
@@ -354,6 +366,7 @@ return function() return {
 { word = ':panda_face:'; label = '🐼 :panda_face:'; insertText = '🐼'; filterText = ':panda_face:' };
 { word = ':pig_nose:'; label = '🐽 :pig_nose:'; insertText = '🐽'; filterText = ':pig_nose:' };
 { word = ':feet:'; label = '🐾 :feet:'; insertText = '🐾'; filterText = ':feet:' };
+{ word = ':paw_prints:'; label = '🐾 :paw_prints:'; insertText = '🐾'; filterText = ':paw_prints:' };
 { word = ':chipmunk:'; label = '🐿️ :chipmunk:'; insertText = '🐿️'; filterText = ':chipmunk:' };
 { word = ':eyes:'; label = '👀 :eyes:'; insertText = '👀'; filterText = ':eyes:' };
 { word = ':eye:'; label = '👁️ :eye:'; insertText = '👁️'; filterText = ':eye:' };
@@ -366,10 +379,13 @@ return function() return {
 { word = ':point_left:'; label = '👈 :point_left:'; insertText = '👈'; filterText = ':point_left:' };
 { word = ':point_right:'; label = '👉 :point_right:'; insertText = '👉'; filterText = ':point_right:' };
 { word = ':facepunch:'; label = '👊 :facepunch:'; insertText = '👊'; filterText = ':facepunch:' };
+{ word = ':punch:'; label = '👊 :punch:'; insertText = '👊'; filterText = ':punch:' };
 { word = ':wave:'; label = '👋 :wave:'; insertText = '👋'; filterText = ':wave:' };
 { word = ':ok_hand:'; label = '👌 :ok_hand:'; insertText = '👌'; filterText = ':ok_hand:' };
 { word = ':+1:'; label = '👍 :+1:'; insertText = '👍'; filterText = ':+1:' };
+{ word = ':thumbsup:'; label = '👍 :thumbsup:'; insertText = '👍'; filterText = ':thumbsup:' };
 { word = ':-1:'; label = '👎 :-1:'; insertText = '👎'; filterText = ':-1:' };
+{ word = ':thumbsdown:'; label = '👎 :thumbsdown:'; insertText = '👎'; filterText = ':thumbsdown:' };
 { word = ':clap:'; label = '👏 :clap:'; insertText = '👏'; filterText = ':clap:' };
 { word = ':open_hands:'; label = '👐 :open_hands:'; insertText = '👐'; filterText = ':open_hands:' };
 { word = ':crown:'; label = '👑 :crown:'; insertText = '👑'; filterText = ':crown:' };
@@ -377,6 +393,7 @@ return function() return {
 { word = ':eyeglasses:'; label = '👓 :eyeglasses:'; insertText = '👓'; filterText = ':eyeglasses:' };
 { word = ':necktie:'; label = '👔 :necktie:'; insertText = '👔'; filterText = ':necktie:' };
 { word = ':shirt:'; label = '👕 :shirt:'; insertText = '👕'; filterText = ':shirt:' };
+{ word = ':tshirt:'; label = '👕 :tshirt:'; insertText = '👕'; filterText = ':tshirt:' };
 { word = ':jeans:'; label = '👖 :jeans:'; insertText = '👖'; filterText = ':jeans:' };
 { word = ':dress:'; label = '👗 :dress:'; insertText = '👗'; filterText = ':dress:' };
 { word = ':kimono:'; label = '👘 :kimono:'; insertText = '👘'; filterText = ':kimono:' };
@@ -386,6 +403,7 @@ return function() return {
 { word = ':handbag:'; label = '👜 :handbag:'; insertText = '👜'; filterText = ':handbag:' };
 { word = ':pouch:'; label = '👝 :pouch:'; insertText = '👝'; filterText = ':pouch:' };
 { word = ':mans_shoe:'; label = '👞 :mans_shoe:'; insertText = '👞'; filterText = ':mans_shoe:' };
+{ word = ':shoe:'; label = '👞 :shoe:'; insertText = '👞'; filterText = ':shoe:' };
 { word = ':athletic_shoe:'; label = '👟 :athletic_shoe:'; insertText = '👟'; filterText = ':athletic_shoe:' };
 { word = ':high_heel:'; label = '👠 :high_heel:'; insertText = '👠'; filterText = ':high_heel:' };
 { word = ':sandal:'; label = '👡 :sandal:'; insertText = '👡'; filterText = ':sandal:' };
@@ -399,8 +417,12 @@ return function() return {
 { word = ':woman:'; label = '👩 :woman:'; insertText = '👩'; filterText = ':woman:' };
 { word = ':family:'; label = '👪 :family:'; insertText = '👪'; filterText = ':family:' };
 { word = ':man_and_woman_holding_hands:'; label = '👫 :man_and_woman_holding_hands:'; insertText = '👫'; filterText = ':man_and_woman_holding_hands:' };
+{ word = ':woman_and_man_holding_hands:'; label = '👫 :woman_and_man_holding_hands:'; insertText = '👫'; filterText = ':woman_and_man_holding_hands:' };
+{ word = ':couple:'; label = '👫 :couple:'; insertText = '👫'; filterText = ':couple:' };
 { word = ':two_men_holding_hands:'; label = '👬 :two_men_holding_hands:'; insertText = '👬'; filterText = ':two_men_holding_hands:' };
+{ word = ':men_holding_hands:'; label = '👬 :men_holding_hands:'; insertText = '👬'; filterText = ':men_holding_hands:' };
 { word = ':two_women_holding_hands:'; label = '👭 :two_women_holding_hands:'; insertText = '👭'; filterText = ':two_women_holding_hands:' };
+{ word = ':women_holding_hands:'; label = '👭 :women_holding_hands:'; insertText = '👭'; filterText = ':women_holding_hands:' };
 { word = ':cop:'; label = '👮 :cop:'; insertText = '👮'; filterText = ':cop:' };
 { word = ':dancers:'; label = '👯 :dancers:'; insertText = '👯'; filterText = ':dancers:' };
 { word = ':bride_with_veil:'; label = '👰 :bride_with_veil:'; insertText = '👰'; filterText = ':bride_with_veil:' };
@@ -457,10 +479,13 @@ return function() return {
 { word = ':bomb:'; label = '💣 :bomb:'; insertText = '💣'; filterText = ':bomb:' };
 { word = ':zzz:'; label = '💤 :zzz:'; insertText = '💤'; filterText = ':zzz:' };
 { word = ':boom:'; label = '💥 :boom:'; insertText = '💥'; filterText = ':boom:' };
+{ word = ':collision:'; label = '💥 :collision:'; insertText = '💥'; filterText = ':collision:' };
 { word = ':sweat_drops:'; label = '💦 :sweat_drops:'; insertText = '💦'; filterText = ':sweat_drops:' };
 { word = ':droplet:'; label = '💧 :droplet:'; insertText = '💧'; filterText = ':droplet:' };
 { word = ':dash:'; label = '💨 :dash:'; insertText = '💨'; filterText = ':dash:' };
 { word = ':hankey:'; label = '💩 :hankey:'; insertText = '💩'; filterText = ':hankey:' };
+{ word = ':poop:'; label = '💩 :poop:'; insertText = '💩'; filterText = ':poop:' };
+{ word = ':shit:'; label = '💩 :shit:'; insertText = '💩'; filterText = ':shit:' };
 { word = ':muscle:'; label = '💪 :muscle:'; insertText = '💪'; filterText = ':muscle:' };
 { word = ':dizzy:'; label = '💫 :dizzy:'; insertText = '💫'; filterText = ':dizzy:' };
 { word = ':speech_balloon:'; label = '💬 :speech_balloon:'; insertText = '💬'; filterText = ':speech_balloon:' };
@@ -506,6 +531,7 @@ return function() return {
 { word = ':notebook_with_decorative_cover:'; label = '📔 :notebook_with_decorative_cover:'; insertText = '📔'; filterText = ':notebook_with_decorative_cover:' };
 { word = ':closed_book:'; label = '📕 :closed_book:'; insertText = '📕'; filterText = ':closed_book:' };
 { word = ':book:'; label = '📖 :book:'; insertText = '📖'; filterText = ':book:' };
+{ word = ':open_book:'; label = '📖 :open_book:'; insertText = '📖'; filterText = ':open_book:' };
 { word = ':green_book:'; label = '📗 :green_book:'; insertText = '📗'; filterText = ':green_book:' };
 { word = ':blue_book:'; label = '📘 :blue_book:'; insertText = '📘'; filterText = ':blue_book:' };
 { word = ':orange_book:'; label = '📙 :orange_book:'; insertText = '📙'; filterText = ':orange_book:' };
@@ -513,6 +539,7 @@ return function() return {
 { word = ':name_badge:'; label = '📛 :name_badge:'; insertText = '📛'; filterText = ':name_badge:' };
 { word = ':scroll:'; label = '📜 :scroll:'; insertText = '📜'; filterText = ':scroll:' };
 { word = ':memo:'; label = '📝 :memo:'; insertText = '📝'; filterText = ':memo:' };
+{ word = ':pencil:'; label = '📝 :pencil:'; insertText = '📝'; filterText = ':pencil:' };
 { word = ':telephone_receiver:'; label = '📞 :telephone_receiver:'; insertText = '📞'; filterText = ':telephone_receiver:' };
 { word = ':pager:'; label = '📟 :pager:'; insertText = '📟'; filterText = ':pager:' };
 { word = ':fax:'; label = '📠 :fax:'; insertText = '📠'; filterText = ':fax:' };
@@ -589,6 +616,7 @@ return function() return {
 { word = ':hammer:'; label = '🔨 :hammer:'; insertText = '🔨'; filterText = ':hammer:' };
 { word = ':nut_and_bolt:'; label = '🔩 :nut_and_bolt:'; insertText = '🔩'; filterText = ':nut_and_bolt:' };
 { word = ':hocho:'; label = '🔪 :hocho:'; insertText = '🔪'; filterText = ':hocho:' };
+{ word = ':knife:'; label = '🔪 :knife:'; insertText = '🔪'; filterText = ':knife:' };
 { word = ':gun:'; label = '🔫 :gun:'; insertText = '🔫'; filterText = ':gun:' };
 { word = ':microscope:'; label = '🔬 :microscope:'; insertText = '🔬'; filterText = ':microscope:' };
 { word = ':telescope:'; label = '🔭 :telescope:'; insertText = '🔭'; filterText = ':telescope:' };
@@ -655,6 +683,7 @@ return function() return {
 { word = ':lower_left_crayon:'; label = '🖍️ :lower_left_crayon:'; insertText = '🖍️'; filterText = ':lower_left_crayon:' };
 { word = ':raised_hand_with_fingers_splayed:'; label = '🖐️ :raised_hand_with_fingers_splayed:'; insertText = '🖐️'; filterText = ':raised_hand_with_fingers_splayed:' };
 { word = ':middle_finger:'; label = '🖕 :middle_finger:'; insertText = '🖕'; filterText = ':middle_finger:' };
+{ word = ':reversed_hand_with_middle_finger_extended:'; label = '🖕 :reversed_hand_with_middle_finger_extended:'; insertText = '🖕'; filterText = ':reversed_hand_with_middle_finger_extended:' };
 { word = ':spock-hand:'; label = '🖖 :spock-hand:'; insertText = '🖖'; filterText = ':spock-hand:' };
 { word = ':black_heart:'; label = '🖤 :black_heart:'; insertText = '🖤'; filterText = ':black_heart:' };
 { word = ':desktop_computer:'; label = '🖥️ :desktop_computer:'; insertText = '🖥️'; filterText = ':desktop_computer:' };
@@ -689,6 +718,7 @@ return function() return {
 { word = ':smile:'; label = '😄 :smile:'; insertText = '😄'; filterText = ':smile:' };
 { word = ':sweat_smile:'; label = '😅 :sweat_smile:'; insertText = '😅'; filterText = ':sweat_smile:' };
 { word = ':laughing:'; label = '😆 :laughing:'; insertText = '😆'; filterText = ':laughing:' };
+{ word = ':satisfied:'; label = '😆 :satisfied:'; insertText = '😆'; filterText = ':satisfied:' };
 { word = ':innocent:'; label = '😇 :innocent:'; insertText = '😇'; filterText = ':innocent:' };
 { word = ':smiling_imp:'; label = '😈 :smiling_imp:'; insertText = '😈'; filterText = ':smiling_imp:' };
 { word = ':wink:'; label = '😉 :wink:'; insertText = '😉'; filterText = ':wink:' };
@@ -786,6 +816,7 @@ return function() return {
 { word = ':taxi:'; label = '🚕 :taxi:'; insertText = '🚕'; filterText = ':taxi:' };
 { word = ':oncoming_taxi:'; label = '🚖 :oncoming_taxi:'; insertText = '🚖'; filterText = ':oncoming_taxi:' };
 { word = ':car:'; label = '🚗 :car:'; insertText = '🚗'; filterText = ':car:' };
+{ word = ':red_car:'; label = '🚗 :red_car:'; insertText = '🚗'; filterText = ':red_car:' };
 { word = ':oncoming_automobile:'; label = '🚘 :oncoming_automobile:'; insertText = '🚘'; filterText = ':oncoming_automobile:' };
 { word = ':blue_car:'; label = '🚙 :blue_car:'; insertText = '🚙'; filterText = ':blue_car:' };
 { word = ':truck:'; label = '🚚 :truck:'; insertText = '🚚'; filterText = ':truck:' };
@@ -888,12 +919,14 @@ return function() return {
 { word = ':robot_face:'; label = '🤖 :robot_face:'; insertText = '🤖'; filterText = ':robot_face:' };
 { word = ':hugging_face:'; label = '🤗 :hugging_face:'; insertText = '🤗'; filterText = ':hugging_face:' };
 { word = ':the_horns:'; label = '🤘 :the_horns:'; insertText = '🤘'; filterText = ':the_horns:' };
+{ word = ':sign_of_the_horns:'; label = '🤘 :sign_of_the_horns:'; insertText = '🤘'; filterText = ':sign_of_the_horns:' };
 { word = ':call_me_hand:'; label = '🤙 :call_me_hand:'; insertText = '🤙'; filterText = ':call_me_hand:' };
 { word = ':raised_back_of_hand:'; label = '🤚 :raised_back_of_hand:'; insertText = '🤚'; filterText = ':raised_back_of_hand:' };
 { word = ':left-facing_fist:'; label = '🤛 :left-facing_fist:'; insertText = '🤛'; filterText = ':left-facing_fist:' };
 { word = ':right-facing_fist:'; label = '🤜 :right-facing_fist:'; insertText = '🤜'; filterText = ':right-facing_fist:' };
 { word = ':handshake:'; label = '🤝 :handshake:'; insertText = '🤝'; filterText = ':handshake:' };
 { word = ':crossed_fingers:'; label = '🤞 :crossed_fingers:'; insertText = '🤞'; filterText = ':crossed_fingers:' };
+{ word = ':hand_with_index_and_middle_fingers_crossed:'; label = '🤞 :hand_with_index_and_middle_fingers_crossed:'; insertText = '🤞'; filterText = ':hand_with_index_and_middle_fingers_crossed:' };
 { word = ':i_love_you_hand_sign:'; label = '🤟 :i_love_you_hand_sign:'; insertText = '🤟'; filterText = ':i_love_you_hand_sign:' };
 { word = ':face_with_cowboy_hat:'; label = '🤠 :face_with_cowboy_hat:'; insertText = '🤠'; filterText = ':face_with_cowboy_hat:' };
 { word = ':clown_face:'; label = '🤡 :clown_face:'; insertText = '🤡'; filterText = ':clown_face:' };
@@ -904,13 +937,21 @@ return function() return {
 { word = ':face_palm:'; label = '🤦 :face_palm:'; insertText = '🤦'; filterText = ':face_palm:' };
 { word = ':sneezing_face:'; label = '🤧 :sneezing_face:'; insertText = '🤧'; filterText = ':sneezing_face:' };
 { word = ':face_with_raised_eyebrow:'; label = '🤨 :face_with_raised_eyebrow:'; insertText = '🤨'; filterText = ':face_with_raised_eyebrow:' };
+{ word = ':face_with_one_eyebrow_raised:'; label = '🤨 :face_with_one_eyebrow_raised:'; insertText = '🤨'; filterText = ':face_with_one_eyebrow_raised:' };
 { word = ':star-struck:'; label = '🤩 :star-struck:'; insertText = '🤩'; filterText = ':star-struck:' };
+{ word = ':grinning_face_with_star_eyes:'; label = '🤩 :grinning_face_with_star_eyes:'; insertText = '🤩'; filterText = ':grinning_face_with_star_eyes:' };
 { word = ':zany_face:'; label = '🤪 :zany_face:'; insertText = '🤪'; filterText = ':zany_face:' };
+{ word = ':grinning_face_with_one_large_and_one_small_eye:'; label = '🤪 :grinning_face_with_one_large_and_one_small_eye:'; insertText = '🤪'; filterText = ':grinning_face_with_one_large_and_one_small_eye:' };
 { word = ':shushing_face:'; label = '🤫 :shushing_face:'; insertText = '🤫'; filterText = ':shushing_face:' };
+{ word = ':face_with_finger_covering_closed_lips:'; label = '🤫 :face_with_finger_covering_closed_lips:'; insertText = '🤫'; filterText = ':face_with_finger_covering_closed_lips:' };
 { word = ':face_with_symbols_on_mouth:'; label = '🤬 :face_with_symbols_on_mouth:'; insertText = '🤬'; filterText = ':face_with_symbols_on_mouth:' };
+{ word = ':serious_face_with_symbols_covering_mouth:'; label = '🤬 :serious_face_with_symbols_covering_mouth:'; insertText = '🤬'; filterText = ':serious_face_with_symbols_covering_mouth:' };
 { word = ':face_with_hand_over_mouth:'; label = '🤭 :face_with_hand_over_mouth:'; insertText = '🤭'; filterText = ':face_with_hand_over_mouth:' };
+{ word = ':smiling_face_with_smiling_eyes_and_hand_covering_mouth:'; label = '🤭 :smiling_face_with_smiling_eyes_and_hand_covering_mouth:'; insertText = '🤭'; filterText = ':smiling_face_with_smiling_eyes_and_hand_covering_mouth:' };
 { word = ':face_vomiting:'; label = '🤮 :face_vomiting:'; insertText = '🤮'; filterText = ':face_vomiting:' };
+{ word = ':face_with_open_mouth_vomiting:'; label = '🤮 :face_with_open_mouth_vomiting:'; insertText = '🤮'; filterText = ':face_with_open_mouth_vomiting:' };
 { word = ':exploding_head:'; label = '🤯 :exploding_head:'; insertText = '🤯'; filterText = ':exploding_head:' };
+{ word = ':shocked_face_with_exploding_head:'; label = '🤯 :shocked_face_with_exploding_head:'; insertText = '🤯'; filterText = ':shocked_face_with_exploding_head:' };
 { word = ':pregnant_woman:'; label = '🤰 :pregnant_woman:'; insertText = '🤰'; filterText = ':pregnant_woman:' };
 { word = ':breast-feeding:'; label = '🤱 :breast-feeding:'; insertText = '🤱'; filterText = ':breast-feeding:' };
 { word = ':palms_up_together:'; label = '🤲 :palms_up_together:'; insertText = '🤲'; filterText = ':palms_up_together:' };
@@ -918,6 +959,7 @@ return function() return {
 { word = ':prince:'; label = '🤴 :prince:'; insertText = '🤴'; filterText = ':prince:' };
 { word = ':person_in_tuxedo:'; label = '🤵 :person_in_tuxedo:'; insertText = '🤵'; filterText = ':person_in_tuxedo:' };
 { word = ':mrs_claus:'; label = '🤶 :mrs_claus:'; insertText = '🤶'; filterText = ':mrs_claus:' };
+{ word = ':mother_christmas:'; label = '🤶 :mother_christmas:'; insertText = '🤶'; filterText = ':mother_christmas:' };
 { word = ':shrug:'; label = '🤷 :shrug:'; insertText = '🤷'; filterText = ':shrug:' };
 { word = ':person_doing_cartwheel:'; label = '🤸 :person_doing_cartwheel:'; insertText = '🤸'; filterText = ':person_doing_cartwheel:' };
 { word = ':juggling:'; label = '🤹 :juggling:'; insertText = '🤹'; filterText = ':juggling:' };
@@ -1213,6 +1255,7 @@ return function() return {
 { word = ':snowman:'; label = '☃️ :snowman:'; insertText = '☃️'; filterText = ':snowman:' };
 { word = ':comet:'; label = '☄️ :comet:'; insertText = '☄️'; filterText = ':comet:' };
 { word = ':phone:'; label = '☎️ :phone:'; insertText = '☎️'; filterText = ':phone:' };
+{ word = ':telephone:'; label = '☎️ :telephone:'; insertText = '☎️'; filterText = ':telephone:' };
 { word = ':ballot_box_with_check:'; label = '☑️ :ballot_box_with_check:'; insertText = '☑️'; filterText = ':ballot_box_with_check:' };
 { word = ':umbrella_with_rain_drops:'; label = '☔ :umbrella_with_rain_drops:'; insertText = '☔'; filterText = ':umbrella_with_rain_drops:' };
 { word = ':coffee:'; label = '☕ :coffee:'; insertText = '☕'; filterText = ':coffee:' };
@@ -1255,6 +1298,7 @@ return function() return {
 { word = ':anchor:'; label = '⚓ :anchor:'; insertText = '⚓'; filterText = ':anchor:' };
 { word = ':crossed_swords:'; label = '⚔️ :crossed_swords:'; insertText = '⚔️'; filterText = ':crossed_swords:' };
 { word = ':medical_symbol:'; label = '⚕️ :medical_symbol:'; insertText = '⚕️'; filterText = ':medical_symbol:' };
+{ word = ':staff_of_aesculapius:'; label = '⚕️ :staff_of_aesculapius:'; insertText = '⚕️'; filterText = ':staff_of_aesculapius:' };
 { word = ':scales:'; label = '⚖️ :scales:'; insertText = '⚖️'; filterText = ':scales:' };
 { word = ':alembic:'; label = '⚗️ :alembic:'; insertText = '⚗️'; filterText = ':alembic:' };
 { word = ':gear:'; label = '⚙️ :gear:'; insertText = '⚙️'; filterText = ':gear:' };
@@ -1285,6 +1329,7 @@ return function() return {
 { word = ':golf:'; label = '⛳ :golf:'; insertText = '⛳'; filterText = ':golf:' };
 { word = ':ferry:'; label = '⛴️ :ferry:'; insertText = '⛴️'; filterText = ':ferry:' };
 { word = ':boat:'; label = '⛵ :boat:'; insertText = '⛵'; filterText = ':boat:' };
+{ word = ':sailboat:'; label = '⛵ :sailboat:'; insertText = '⛵'; filterText = ':sailboat:' };
 { word = ':skier:'; label = '⛷️ :skier:'; insertText = '⛷️'; filterText = ':skier:' };
 { word = ':ice_skate:'; label = '⛸️ :ice_skate:'; insertText = '⛸️'; filterText = ':ice_skate:' };
 { word = ':person_with_ball:'; label = '⛹️ :person_with_ball:'; insertText = '⛹️'; filterText = ':person_with_ball:' };
@@ -1294,8 +1339,10 @@ return function() return {
 { word = ':white_check_mark:'; label = '✅ :white_check_mark:'; insertText = '✅'; filterText = ':white_check_mark:' };
 { word = ':airplane:'; label = '✈️ :airplane:'; insertText = '✈️'; filterText = ':airplane:' };
 { word = ':email:'; label = '✉️ :email:'; insertText = '✉️'; filterText = ':email:' };
+{ word = ':envelope:'; label = '✉️ :envelope:'; insertText = '✉️'; filterText = ':envelope:' };
 { word = ':fist:'; label = '✊ :fist:'; insertText = '✊'; filterText = ':fist:' };
 { word = ':hand:'; label = '✋ :hand:'; insertText = '✋'; filterText = ':hand:' };
+{ word = ':raised_hand:'; label = '✋ :raised_hand:'; insertText = '✋'; filterText = ':raised_hand:' };
 { word = ':v:'; label = '✌️ :v:'; insertText = '✌️'; filterText = ':v:' };
 { word = ':writing_hand:'; label = '✍️ :writing_hand:'; insertText = '✍️'; filterText = ':writing_hand:' };
 { word = ':pencil2:'; label = '✏️ :pencil2:'; insertText = '✏️'; filterText = ':pencil2:' };
@@ -1315,6 +1362,7 @@ return function() return {
 { word = ':grey_question:'; label = '❔ :grey_question:'; insertText = '❔'; filterText = ':grey_question:' };
 { word = ':grey_exclamation:'; label = '❕ :grey_exclamation:'; insertText = '❕'; filterText = ':grey_exclamation:' };
 { word = ':exclamation:'; label = '❗ :exclamation:'; insertText = '❗'; filterText = ':exclamation:' };
+{ word = ':heavy_exclamation_mark:'; label = '❗ :heavy_exclamation_mark:'; insertText = '❗'; filterText = ':heavy_exclamation_mark:' };
 { word = ':heavy_heart_exclamation_mark_ornament:'; label = '❣️ :heavy_heart_exclamation_mark_ornament:'; insertText = '❣️'; filterText = ':heavy_heart_exclamation_mark_ornament:' };
 { word = ':heart:'; label = '❤️ :heart:'; insertText = '❤️'; filterText = ':heart:' };
 { word = ':heavy_plus_sign:'; label = '➕ :heavy_plus_sign:'; insertText = '➕'; filterText = ':heavy_plus_sign:' };
