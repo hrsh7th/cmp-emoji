@@ -12,7 +12,7 @@ source.get_trigger_characters = function()
 end
 
 source.get_keyword_pattern = function()
-  return [=[\%(\s\|^\)\zs:[[:alnum:]_\-\+]*:\?]=]
+  return [=[\%([[:space:]"'`]\|^\)\zs:[[:alnum:]_\-\+]*:\?]=]
 end
 
 source.complete = function(self, params, callback)
